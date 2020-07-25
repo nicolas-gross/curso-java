@@ -1,0 +1,47 @@
+1) Criar a base de dados chamada exercicio02
+
+2) Selecionar base de dados
+
+3) Criar uma tabela chamada produtos
+codigo int ai pk
+produto VARCHAR(40),
+categoria VARCHAR(20),
+valor DOUBLE,
+cadastro DATE
+
+4) Cadastrar os seguintes produtos:
+Smartphone Samsung A8,telefonia, 1400.00 , 2019-07-22
+Notebook Acer A650,informática,3800.00 ,  2019-03-19
+Telefone sem fio Intelbras,telefonia,129.90, 2018-12-20
+iPhone XR,telefonia, 5499.00, 2019-07-08
+Notebook Dell Espiron 500,informática,3975.80, 2019-01-29
+All in one LG A8574,informática,2547.12, 2019-02-13
+Smartphone Motorola G7,telefonia,799.00, 2019-04-03
+Smartphone Galaxy S10,telefonia,4600.00, 2019-05-03
+Notebook Acer Axpros 47,informática,2857.00, 2019-08-16
+Smartphone Asus Zenfone 6,telefonia,2356.00, 2018-07-29
+Smartphone Samsung J4, null, 1700.00, 2018-06-16
+
+5) Exibir a quantidade de produtos cadastrados
+ 
+6) Exibir o nome dos produtos e valor, onde o cadastro esteja entre 01/04/2019 a 31/07/2019
+
+7) Alterar a categoria para telefonia o produto que seja da categoria null
+
+8) Exibir o nome das categorias cadastradas na tabela e a quantidade de produtos 
+
+9) Exibir a média dos valores por categorias
+
+10) Nome e valor do produto mais barato
+
+11) Exibir todos os produtos da categoria telefonia com valor igual ou superior a 4.000,00     
+
+12) Listar todos os produtos cadastrados em 2018
+
+13) Deletar todos os produtos que possuam o nome Samsung ou LG
+
+14) Exibir o código do produto, onde o nome contenha o termo Intelbras 
+
+15) Excluir a tabela produtos
+
+16) Excluir a base de dados

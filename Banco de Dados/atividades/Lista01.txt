@@ -1,0 +1,45 @@
+1) Criar a base de dados exercicio01
+
+2) Selecionar a base de dados criada
+
+3) Criar uma tabela chamada uzuarios (com z mesmo), contendo as seguintes características:
+codigo int ai pk
+nome varchar(20)
+sobrenome varchar(40)
+idade int
+
+4) Alterar o nome da tabela uzuarios para usuarios
+
+5) Adicionar uma coluna chamada email do tipo varchar com tamanho de 40 caracteres
+
+6) Remover a coluna sobrenome
+
+7) Cadastrar os seguintes dados:
+Vanessa, 16, vanessa.rosa@gmail.com
+Adailton, 22, adailton.maas@yahoo.com.br
+Andressa, 36, dessa.simas@uol.com.br
+Mayra, 24, mayra.antunes@gmail.com
+Cristiane, 14, criss.maya@gmail.com
+Leonardo, 15, leo.kopff@terra.com.br
+Carina, 27, carina.almeida@gmail.com
+Clóvis, 29, clovis.simao@hotmail.com
+Gabriela, 23, gabriela.braga@live.com
+Cibele, null, cibele.lins@uol.com.br
+
+8) Exibir o número de usuários
+
+9) Exibir a quantidade de usuários menores de 18 anos
+
+10) Quantos usuários possuem o e-mail do gmail
+
+11) Retornar o nome da pessoa com a maior idade
+
+12) Retornar o nome do do usuário, onde a idade seja null
+
+13) Alterar todas as idades que estejam null para 27
+
+14) Deletar todos os usuários onde a idade seja inferior a 18 anos
+
+15) Excluir os dados da tabela usuarios e reiniciar a contagem da coluna código.
+
+16) Excluir a tabela usuarios

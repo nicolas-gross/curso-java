@@ -1,0 +1,51 @@
+1) Criar a base de dados chamada exercicio03
+
+2) Selecionar base de dados
+
+3) Criar uma tabela chamada alunos
+codigo INT AI PK,
+nome VARCHAR(40),
+genero VARCHAR(10),
+nota1 DOUBLE,
+nota2 DOUBLE,
+nota3 DOUBLE
+
+4) Cadastre os seguintes dados:
+Alana,Feminino, 7, 8 , 9.5
+Brenda,Feminino, 8.5 , 7.3 ,7.7
+Gustavo,Masculino, 9, 9.1, 8.6
+Júlio,Masculino, 4.5 , 3.9 , 4
+Jéssica,Feminino, 7 , 6.8, 7
+Lúcia,Feminino, 10 , 9.8 , 10
+Rony,Masculino , 5.6 , 6.3 , 5.9
+Tamara,Feminino,7  , 8 , 7.5
+Guilherme,Masculino, 7 , 7.1 , 7.7
+Lorena,Feminino, 4 , 4.5 , 4.4
+
+5) Exibir a quantidade de homens e mulheres
+
+6) Exibir o nome e a média de cada aluno
+
+7) Contar quantos alunos obtiveram média 7 ou superior
+
+8) Nome, notas e média do aluno com a maior média
+
+9) Nome, notas e média do aluno com a menor média
+
+10) Exibir todos os nomes cadastrados e suas situações. Caso a média seja 7 ou mais exibir Aprovado, caso contrário Reprovado.
+
+11) Alterar a aluna Jéssica para Joice
+
+12) Exibir a quantidade de alunos que tenham média de 7 ou superior e do gênero masculino
+
+13) Exibir a quantidade de alunos que tenham a média entre 8 e 9 do gênero feminino
+
+14) Exibir a média da turma
+
+15) Exibir o nome dos alunos e suas médias, onde suas respectivas médias sejam maiores ou iguais a média da turma
+
+16) Listar o nome dos alunos, onde as três notas obtidos sejam 7 ou superior
+
+17) Excluir a tabela alunos
+
+18) Excluir a base de dados

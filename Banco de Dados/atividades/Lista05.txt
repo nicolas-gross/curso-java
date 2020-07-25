@@ -1,0 +1,65 @@
+1) Criar a base de dados chamada exercicio05;
+
+2) Selecionar base
+
+3) Tabela de alunos
+idAluno INT AI PK,
+nomeAluno varchar(30),
+emailAluno varchar(40),
+
+
+4) Tabela de turmas
+idTurma INT AI PK,
+nomeTurma varchar(5),
+turnoTurma varchar(12)
+
+5) Tabela de professores
+idProfessor INT AI PK,
+nomeProfessor varchar(30),
+materiaProfessor varchar(20)
+
+
+6) Tabela turmasFormadas
+idTurma INT FK,
+idAluno INT FK,
+idProfessor INT FK
+
+
+7) Cadastrar alunos
+("Christian", "cris.antunes@gmail.com"),
+("Dênis", "denis.oliveira@live.com"),
+("Elaine", "elaine.wust@gmail.com"),
+("Felipe", "felipe.melo@gmail.com"),
+("Graziela", "grazi.mendes@uol.com.br");
+
+8) Cadastrar turmas
+("8A", "Vespertino"),
+("7C", "Matutino");
+
+9) Cadastrar professores
+("Wellington"),
+("Vanessa");
+
+10) Cadastrar turmasFormadas
+(1, 1, 1),
+(2, 2, 2),
+(1, 3, 1),
+(2, 4, 2),
+(1, 5, 1);
+
+11) Selecionar dados da tabela turmasFormadas
+
+12) Criar uma View para listar todos os dados da tabela turmasFormadas, utilize INNER JOIN
+para retornar os dados de cada id.
+
+13) Executar a view
+
+14) Remover view
+
+15) Criar uma procedure para contar os registros da tabela turmasFormadas
+
+16) Executar procedure
+
+17) Criar procedure para cadastrar dados da tabela turmasFormadas
+
+18) Executar procedure
