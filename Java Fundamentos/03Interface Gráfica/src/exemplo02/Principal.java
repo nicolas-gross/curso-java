@@ -1,0 +1,13 @@
+package exemplo02;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		//Instânciar objeto da classe Interface
+		Interface i = new Interface();
+		i.formulario();
+
+	}
+
+}
